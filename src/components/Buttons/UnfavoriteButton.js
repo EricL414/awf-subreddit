@@ -9,9 +9,10 @@ import React from 'react';
 import Button from "react-bootstrap/Button";
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import "./Buttons.css"
+import { useHistory } from "react-router-dom";
 
 function UnfavoriteButton (props) {
-
+    let history = useHistory();
     //button event handler of "Remove from favorite", remove the post from localStorage
     function removePost()
     {
@@ -25,7 +26,7 @@ function UnfavoriteButton (props) {
         fav = JSON.stringify(fav_parsed);
         localStorage.setItem('fav', fav);
         //refresh the page
-        window.location.reload();
+        history.push('/awf-subreddit/favorite/');
 
     }
     
