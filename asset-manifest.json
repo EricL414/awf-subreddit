@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/awf-subreddit/static/css/main.c6d41681.chunk.css",
+    "main.js": "/awf-subreddit/static/js/main.d6a757c3.chunk.js",
+    "main.js.map": "/awf-subreddit/static/js/main.d6a757c3.chunk.js.map",
+    "runtime-main.js": "/awf-subreddit/static/js/runtime-main.ab103fe5.js",
+    "runtime-main.js.map": "/awf-subreddit/static/js/runtime-main.ab103fe5.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/awf-subreddit/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.3009e8d6.chunk.js": "/awf-subreddit/static/js/2.3009e8d6.chunk.js",
+    "static/js/2.3009e8d6.chunk.js.map": "/awf-subreddit/static/js/2.3009e8d6.chunk.js.map",
+    "index.html": "/awf-subreddit/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/awf-subreddit/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.c6d41681.chunk.css.map": "/awf-subreddit/static/css/main.c6d41681.chunk.css.map",
+    "static/js/2.3009e8d6.chunk.js.LICENSE.txt": "/awf-subreddit/static/js/2.3009e8d6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab103fe5.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.3009e8d6.chunk.js",
+    "static/css/main.c6d41681.chunk.css",
+    "static/js/main.d6a757c3.chunk.js"
+  ]
+}
