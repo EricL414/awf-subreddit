@@ -1,17 +1,22 @@
+/*
+    FILE:       index.js
+    PROJECT:    AWF-FrontendAssignment-Subreddit
+    PROGRAMMER: Eric Lin 7221476
+    DATE:       March 14th, 2021
+    DESCRIPTION:This is the index JavaScript file of this react project, which the React render codes.
+*/
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+  <div className="app">
+    <h2>Eric Lin (7221476) - AWF Frontend Assignment - SubReddit Posts</h2>
     <App />
+  </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
