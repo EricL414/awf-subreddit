@@ -21,9 +21,9 @@ class App extends React.Component {
               <Router>
                   <Switch>
                       {/* Main page */}
-                      <Route path="/" exact strict component={SearchPage} />    
+                      <Route path="/awf-subreddit/" exact component={SearchPage} />    
                       {/* Favorite Page */}
-                      <Route path="/favorite/" exact strict component={FavoritePage} />
+                      <Route path="/awf-subreddit/favorite/" exact component={FavoritePage} />
 
                   </Switch>  
 

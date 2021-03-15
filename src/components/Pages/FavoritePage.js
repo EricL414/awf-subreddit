@@ -23,7 +23,7 @@ class FavoritePage extends React.Component {
             <div className="fav-body">
                 
                 <div className="back-button">
-                    <Link  to={"/"}><Button>Back to search page</Button></Link>               
+                    <Link  to={"/awf-subreddit/"}><Button>Back to search page</Button></Link>               
                 </div>
                 <h2 className="page-header">
                     <br/>

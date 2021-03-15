@@ -76,7 +76,7 @@ function SearchPage() {
     return (
         <div className="search-page">
             <div className="fav-button">
-                <Link  to={"/favorite/"}><Button>Check my Favorites</Button></Link>
+                <Link  to={"/awf-subreddit/favorite/"}><Button>Check my Favorites</Button></Link>
             </div>
             <div className="search-body">
                 <div className="search-box">
